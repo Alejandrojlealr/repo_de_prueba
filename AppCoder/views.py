@@ -5,7 +5,7 @@ from .models import Curso
 
 # Create your views here.
 
-def crear_curso(request):
+def crear_curso_1(request):
     curso = Curso(nombre='prueba', camada=5)
     curso.save()
     
